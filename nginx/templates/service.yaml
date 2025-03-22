@@ -3,6 +3,7 @@ kind: service
 metadata:
   name: nginx
 spec:
+  type: LoadBalancer
   selector:
     app: nginx
     tire: web
